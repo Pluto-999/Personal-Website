@@ -5,12 +5,14 @@ import './App.css'
 import Card from "./Card.jsx"
 import { Link } from "react-router-dom"
 import Cards from "./Cards.jsx"
+import Navbar from "./Navbar.jsx"
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      <Navbar />
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />

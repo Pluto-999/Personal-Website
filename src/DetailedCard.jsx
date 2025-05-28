@@ -1,5 +1,6 @@
 // import { Link } from "react-router-dom"
 import { useParams } from "react-router-dom"
+import Navbar from "./Navbar.jsx"
 
 function DetailedCard () {
     
@@ -15,7 +16,9 @@ function DetailedCard () {
     const cardToDisplay = detailedCards.find(card => card.id === parseInt(cardId));
 
     return (
+        
         <>
+        <Navbar />
             <div>Some more details on this card ... </div>
             <h1>{ cardToDisplay.title }</h1>
             <div> { cardToDisplay.description } </div>

@@ -11,6 +11,8 @@ function Cards() {
     ]
 
     return (
+        <>
+        <h1 id="my_projects"> My Projects </h1>
         <div className="cards-container">
             {cards.map((card) => (
                 <Link key={card.id} to={`/card/${card.id}`}>
@@ -18,6 +20,7 @@ function Cards() {
                 </Link>
             ))}
         </div>
+        </>
     );
 }
 

@@ -20,7 +20,7 @@ function Card(props) {
         setSomeThing(!someThing)
     }
 
-    const cardToDisplay = props.title ? props : cards.find(card => card.id === parseInt(cardId));
+    // const cardToDisplay = props.title ? props : cards.find(card => card.id === parseInt(cardId));
 
     // console.log("Card is: ", cardToDisplay.title)
 
