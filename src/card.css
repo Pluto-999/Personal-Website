@@ -4,4 +4,13 @@
     cursor: pointer;
     border: solid;
     border-color: aliceblue;
+    max-width: 1200px;
+    margin: 1rem auto;
+    color:  rgba(255, 255, 255, 0.87);
+    transition-duration: 0.5s; 
+}
+
+.card:hover{
+    filter: drop-shadow(0 0 5em #646cffaa);
+    background-color: rgb(14, 42, 85);
 }

@@ -55,3 +55,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 } */
+
+:root {
+  font-family: "Fira Code", monospace;
+  text-align: center;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #1a253d;
+}

@@ -1,9 +1,9 @@
-#navbar{
+.navbar{
     position: sticky;
     top: 0;
-    background-color: #333;
     padding: 5px;
     width: 100%;
+    background-color: #1a253d;
 }
 
 ul{
@@ -13,9 +13,15 @@ ul{
 
 li {
     display: inline;
-    padding: 12px
+    padding: 12px;
+    color: rgba(255, 255, 255, 0.87);
 }
 
 li :hover{
-    background-color: rgb(183, 201, 216);
+    filter: drop-shadow(0 0 5em #646cffaa);
+    background-color: rgb(14, 42, 85);
+}
+
+.navbar_links li a{
+    color: white;
 }
