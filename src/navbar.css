@@ -2,4 +2,20 @@
     position: sticky;
     top: 0;
     background-color: #333;
+    padding: 5px;
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+
+}
+
+li {
+    display: inline;
+    padding: 12px
+}
+
+li :hover{
+    background-color: rgb(183, 201, 216);
 }

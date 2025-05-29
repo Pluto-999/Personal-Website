@@ -1,22 +1,16 @@
 // import { Link } from "react-router-dom"
 import { useParams } from "react-router-dom"
 import Navbar from "./Navbar.jsx"
+import personal_details from "./data/personal_projects_detailed.json"
+import university_details from "./data/university_projects_detailed.json" 
 
 function DetailedCard () {
-    
     const { cardId } = useParams()
-
-    const detailedCards = [
-        { id: 1, title: "Title 1", description: "Here is some more description for card 1 ... blah blah blah" },
-        { id: 2, title: "Title 2", description: "Here is some more description for card 2 ... blah blah blah" },
-        { id: 3, title: "Title 3", description: "Here is some more description for card 3 ... blah blah blah" },
-        { id: 4, title: "Title 4", description: "Here is some more description for card 4 ... blah blah blah" },
-    ]
     
-    const cardToDisplay = detailedCards.find(card => card.id === parseInt(cardId));
+    const cardToDisplay = personal_details.find(card => card.id === parseInt(cardId)) || 
+                        university_details.find(card => card.id === parseInt(cardId));
 
     return (
-        
         <>
         <Navbar />
             <div>Some more details on this card ... </div>

@@ -1,20 +1,22 @@
 import Card from "./Card.jsx"
 import { Link } from "react-router-dom"
-
+import personal_cards from "./data/personal_projects_overview.json"
+import university_cards from "./data/university_projects_overview.json"
 
 function Cards() {
-    const cards = [
-        { id: 1, title: "Title 1", description: "Card 1 Description" },
-        { id: 2, title: "Title 2", description: "Card 2 Description" },
-        { id: 3, title: "Title 3", description: "Card 3 Description" },
-        { id: 4, title: "Title 4", description: "Card 4 Description" },
-    ]
-
     return (
         <>
-        <h1 id="my_projects"> My Projects </h1>
+        <h1 id="personal_projects"> Personal Projects </h1>
         <div className="cards-container">
-            {cards.map((card) => (
+            {personal_cards.map((card) => (
+                <Link key={card.id} to={`/card/${card.id}`}>
+                    <Card title={card.title} cardId={card.id} description={card.description} />
+                </Link>
+            ))}
+        </div>
+        <h1 id="university_projects"> University Projects </h1>
+        <div className="cards-container">
+            {university_cards.map((card) => (
                 <Link key={card.id} to={`/card/${card.id}`}>
                     <Card title={card.title} cardId={card.id} description={card.description} />
                 </Link>

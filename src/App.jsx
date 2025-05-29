@@ -6,6 +6,8 @@ import Card from "./Card.jsx"
 import { Link } from "react-router-dom"
 import Cards from "./Cards.jsx"
 import Navbar from "./Navbar.jsx"
+import About from "./About.jsx"
+import Footer from "./Footer.jsx"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -33,7 +35,12 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+
+      <About />
+
       <Cards />
+
+      <Footer />
     </>
   )
 }
