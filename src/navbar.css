@@ -11,17 +11,20 @@ ul{
 
 }
 
-li {
+.navbar_links li {
     display: inline;
     padding: 12px;
     color: rgba(255, 255, 255, 0.87);
+    transition-duration: 0.5s;
 }
 
-li :hover{
+.navbar_links li :hover{
     filter: drop-shadow(0 0 5em #646cffaa);
-    background-color: rgb(14, 42, 85);
+    color: #535bf2;
+    transition-duration: 0.5s;
 }
 
 .navbar_links li a{
     color: white;
+    transition-duration: 0.5s;
 }
