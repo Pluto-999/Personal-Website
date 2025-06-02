@@ -1,26 +1,27 @@
 .card{
     border-radius: 5%;
-    /* background-color: aqua; */
     cursor: pointer;
-    border: solid;
-    border-color: aliceblue;
-    /* max-width: 1200px; */
-    /* display: flex; */
+    border: solid transparent;
+    background-color: rgb(8, 39, 85);
     margin: 1rem auto;
     color:  rgba(255, 255, 255, 0.87);
-    transition-duration: 1s; 
-    min-height: 200px;
-    min-width: 200px;
+    transition-duration: 0.75s; 
+    min-height: 300px;
+    min-width: 250px;
+    padding-top: 5px;
 }
 
 .card:hover{
-    /* filter: drop-shadow(0 0 5em #646cffaa); */
-    background-color: rgb(14, 42, 85);
+    box-shadow: 0 0 5em 1em #646cffaa;
+    background-color: #1a253d;
+    border-color: aliceblue;
+    transition-duration: 0.75s; 
 }
 
 .cards-container{
     display:flex;
     justify-content: center;
+    flex-wrap: wrap;
     /* margin: 10px; */
-     gap: 2rem;
+    gap: 1rem;
 }

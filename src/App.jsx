@@ -16,8 +16,10 @@ function App() {
     <>
       <div className="main_page">
         <Navbar />
-        <About />
-        <Cards />
+        <main className='main_content'>
+          <About />
+          <Cards />
+        </main>
         <Footer />
       </div>
     </>
