@@ -1,0 +1,7 @@
+[
+    { "id": 1, "title": "Euroscore", "description": "Here is some more description for card 1 ... blah blah blah", "github": "https://github.com/Pluto-999/eurovision-app" },
+    { "id": 2, "title": "Student Support Hub", "description": "Here is some more description for card 2 ... blah blah blah", "github": "https://github.com/Apollonian-Devs/SEG-MGP" },
+    { "id": 3, "title": "ML Placeholder", "description": "Here is some more description for card 3 ... blah blah blah", "github": "" },
+    { "id": 4, "title": "Code Tutors", "description": "Here is some more description for card 4 ... blah blah blah", "github": "" },
+    { "id": 5, "title": "COVID-19 Statistics Analyser", "description": "Here is some more description for card 5 ... blah blah blah", "github": "" } 
+]

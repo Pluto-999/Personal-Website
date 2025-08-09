@@ -1,0 +1,7 @@
+[
+    { "id": 1, "title": "Euroscore", "description": "A full stack app " },
+    { "id": 2, "title": "Student Support Hub", "description": "A full stack app" },
+    { "id": 3, "title": "ML Placeholder", "description": "An app" },
+    { "id": 4, "title": "Code Tutors", "description": "An app focused on Django backend blah blah " },
+    { "id": 5, "title": "COVID-19 Statistics Analyser", "description": "A Java app" }
+]

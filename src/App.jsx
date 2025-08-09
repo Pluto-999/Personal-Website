@@ -1,22 +1,18 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import Card from "./Card.jsx"
-import { Link } from "react-router-dom"
 import Cards from "./Cards.jsx"
 import Navbar from "./Navbar.jsx"
 import About from "./About.jsx"
+import Intro from "./Intro.jsx"
 import Footer from "./Footer.jsx"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <div className="main_page">
         <Navbar />
         <main className='main_content'>
+          <Intro />
           <About />
           <Cards />
         </main>

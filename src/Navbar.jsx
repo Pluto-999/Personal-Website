@@ -9,8 +9,7 @@ function Navbar(props) {
             <ul className="navbar_links">
                 <li><HashLink smooth to="/#">Home</HashLink></li>
                 <li><HashLink smooth to="/#about">About</HashLink></li>
-                <li><HashLink smooth to="/#personal_projects">Personal Projects</HashLink></li>
-                <li><HashLink smooth to="/#university_projects">University Projects</HashLink></li>
+                <li><HashLink smooth to="/#projects">My Projects</HashLink></li>
             </ul>
         </nav>
     )

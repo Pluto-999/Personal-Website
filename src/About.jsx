@@ -5,7 +5,7 @@ function About() {
         <>
             <div>
             <h1 id="about"> About me ... </h1>
-            <p> Hello there, this is me ... </p>
+            <p> A more detailed about here ... </p>
             </div>
         </>
     )
