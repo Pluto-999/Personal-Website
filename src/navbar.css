@@ -2,11 +2,11 @@
     position: sticky;
     top: 0;
     background-color: #1a253d;
+    z-index: 1;
 }
 
 ul{
     list-style-type: none;
-
 }
 
 .navbar_links li {

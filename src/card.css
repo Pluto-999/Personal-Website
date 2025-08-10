@@ -41,4 +41,11 @@
     color: aliceblue;
     background-color: #1a253d;
     padding: 20px;
+    transition-duration: 0.5s;
+}
+
+.embla__button:hover{
+  cursor: pointer;
+  color: #535bf2;
+  transition-duration: 0.5s;
 }

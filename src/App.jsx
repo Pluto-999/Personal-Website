@@ -12,9 +12,15 @@ function App() {
       <div className="main_page">
         <Navbar />
         <main className='main_content'>
-          <Intro />
-          <About />
-          <Cards />
+          <div className='item'>
+            <Intro />
+          </div>
+          <div className='item'>
+            <About />
+          </div>
+          <div className='item'>
+            <Cards />
+          </div>
         </main>
         <Footer />
       </div>
