@@ -20,6 +20,8 @@ a:hover {
   flex-direction: column;
   gap: 5rem;
   min-height: 100dvh;
+  max-width: 1100px;
+  margin: auto;
 }
 
 .main_content{
@@ -57,3 +59,17 @@ html {
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
 }
+
+/* h1 {
+  text-align: left;
+  padding-left: 40px;
+}
+
+h1::after {
+  content: "";
+  height: 1px;
+  background-color: #475569;
+  display: block;
+  margin-top: 10px;
+  margin-right: 40px;
+} */

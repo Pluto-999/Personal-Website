@@ -27,7 +27,7 @@ function Cards() {
     return (
         <>
         <div className="embla">
-            <h1 id="projects"> My Projects </h1>
+            <h1 className="header"> My Projects </h1>
             <div className="embla__viewport" ref={emblaRef}>
                 <div className="embla__container">
                 {

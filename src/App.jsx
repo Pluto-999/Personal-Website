@@ -1,10 +1,10 @@
-import { useState } from 'react'
 import './App.css'
 import Cards from "./Cards.jsx"
 import Navbar from "./Navbar.jsx"
 import About from "./About.jsx"
 import Intro from "./Intro.jsx"
 import Footer from "./Footer.jsx"
+import "./styles/header_styles.css"
 
 function App() {
   return (
