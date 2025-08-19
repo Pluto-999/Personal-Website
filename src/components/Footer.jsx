@@ -1,4 +1,4 @@
-import "./styles/footer.css"
+import "../styles/footer.css"
 import { DiGithubBadge } from "react-icons/di";
 import { BiLogoGmail } from "react-icons/bi";
 import { FaLinkedin } from "react-icons/fa";

@@ -1,9 +1,9 @@
-import './App.css'
-import Cards from "./Cards.jsx"
-import Navbar from "./Navbar.jsx"
-import About from "./About.jsx"
-import Intro from "./Intro.jsx"
-import Footer from "./Footer.jsx"
+import "./styles/App.css"
+import Cards from "./components/Cards.jsx"
+import Navbar from "./components/Navbar.jsx"
+import About from "./components/About.jsx"
+import Intro from "./components/Intro.jsx"
+import Footer from "./components/Footer.jsx"
 import "./styles/header_styles.css"
 
 function App() {

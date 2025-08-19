@@ -1,7 +1,7 @@
 import Card from "./Card.jsx"
 import { Link } from "react-router-dom"
-import project_overviews from "./data/projects_overview.json"
-import "./card.css"
+import project_overviews from "../data/projects_overview.json"
+import "../styles/card.css"
 import useEmblaCarousel from 'embla-carousel-react'
 import { useCallback } from "react"
 import Autoplay from 'embla-carousel-autoplay'
@@ -27,7 +27,7 @@ function Cards() {
     return (
         <>
         <div className="embla">
-            <h1 className="header"> My Projects </h1>
+            <h1 className="header" id="projects"> My Projects </h1>
             <div className="embla__viewport" ref={emblaRef}>
                 <div className="embla__container">
                 {

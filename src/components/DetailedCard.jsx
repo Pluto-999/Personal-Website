@@ -1,9 +1,9 @@
 import { useParams } from "react-router-dom"
 import Navbar from "./Navbar.jsx"
-import project_details from "./data/projects_detailed.json"
+import project_details from "../data/projects_detailed.json"
 import { DiGithubBadge } from "react-icons/di";
 import Footer from "./Footer.jsx"
-import "./detailedCard.css"
+import "../styles/detailedCard.css"
 
 function DetailedCard () {
     const { cardId } = useParams()

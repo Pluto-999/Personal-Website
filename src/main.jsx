@@ -1,10 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
+import './styles/index.css'
 import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import NotFoundPage from "./NotFoundPage.jsx"
-import DetailedCard from "./DetailedCard.jsx"
+import DetailedCard from "./components/DetailedCard.jsx"
 
 const router = createBrowserRouter([
   {

@@ -1,8 +1,6 @@
-import { Link } from "react-router-dom"
-import Cards from "./Cards.jsx"
-import "./navbar.css"
+import "../styles/navbar.css"
 import { HashLink } from "react-router-hash-link"
-function Navbar(props) {
+function Navbar() {
     
     return (
         <nav className="navbar">
