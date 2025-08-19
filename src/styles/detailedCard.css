@@ -1,3 +1,26 @@
 #main{
     gap: 0
 }
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  position: relative; 
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 5rem;
+  right: 5rem; 
+  height: 1px;
+  background-color: #475569;
+}
+
+.details {
+    padding: 1rem;
+}

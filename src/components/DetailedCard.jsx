@@ -15,13 +15,20 @@ function DetailedCard () {
         <div className="main_page">
             <Navbar />
             <main className="main_content" id="main">
-                <h1>{ cardToDisplay.title }</h1>
-                <div> { cardToDisplay.description } </div>
-                <div> 
+                <div className="title">
+                    <h1 className=""> {cardToDisplay.title} </h1>
                     {cardToDisplay.github ? (
-                        <a href={cardToDisplay.github}><DiGithubBadge size={60} /></a>
+                        <a href={cardToDisplay.github}><DiGithubBadge size={50} /></a>
                     ) : (
-                        <div> Unfortunately, due to college policy the code for this project cannot be published publicly on GitHub. </div>
+                        <></>
+                    )}
+                </div>
+                <div className="details">
+                <p> { cardToDisplay.description } </p>
+                    {cardToDisplay.github ? (
+                        <></>
+                    ) : (
+                        <p> Unfortunately, due to college policy the code for this project cannot be published publicly on GitHub. </p>
                     )}
                 </div>
             </main>
